@@ -1,8 +1,12 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import Waifu from './components/Waifu.vue'
 </script>
 
 <template>
+  <div>
+    <Waifu />
+  </div>
   <div>
     <a href="https://vite.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
